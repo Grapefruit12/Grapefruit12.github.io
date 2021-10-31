@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>바닐라 챌린지_졸업과제</title>
+    <link rel="stylesheet" href="src/style.css">
+    
+</head>
+<body>
+   <h2 id="clock">00:00:00</h2>
+   <!--quote-->
+   <div id="quote">
+       <span class="quote1"></span>
+       <span class="author1"></span>
+   </div>
+   <!--Log In-->
+   <form class="hidden" id="login-form">
+       <input required maxlength="15" type="text" placeholder="What is your name?">
+       <button>Log In</button>
+   </form>
+   <h1 id="greeting" class="hidden"></h1>
+   <!--todo-->
+   <div id="todo">
+       <form id="todo-form">
+            <input type="text" placeholder="TODO LIST" required>
+        </form>
+        <ul id="todo-list"></ul>
+   </div>
+   <!--weather-->
+   
+   <div id="weather">
+       
+       <span ></span>
+       <span ></span>
+    </div>
+    
+    <script src="src/background.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/quotes.js"></script>
+    <script src="src/log_in.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+</body>
+</html>
